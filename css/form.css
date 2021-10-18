@@ -1,0 +1,141 @@
+section .container{
+    width: 740px;
+}
+section .container .row-6{
+    width: 100%;
+    display: inline-block;
+}
+section .container .col-md-6 .imagem{
+    width: 100%;
+    margin-top: 5px;
+    margin-left: 100px;
+}
+section .container .col-md-6 ::-webkit-file-upload-button{
+    height: 100px;
+}
+input[type='file'] { color: transparent; }
+section .container .cargo{
+    margin-top: 1px;
+    width: 300px;
+}
+section .container2{
+    margin-top: 13px;
+    margin-left: 12px;
+}
+section .container3{
+    margin-top: 13px;
+    margin-left: 12px;
+}
+section .container4{
+    margin-top: 13px;
+    margin-left: 12px;
+}
+section .container5{
+    margin-top: 13px;
+    margin-left: 12px;
+}
+section .container6{
+    margin-top: 13px;
+    margin-left: 12px;
+}
+section .container .nome{
+    width: 277px;
+    margin-top: 13px;
+}
+section .container .sobrenome{
+    width: 300px;
+}
+section .container .email{
+    width: 300px;
+}
+section .container .carteira{
+    width: 300px;
+}
+section .container .nascimento{
+    width: 300px;
+}
+section .container .endereco{
+    width: 300px;
+}
+section .container .estado{
+    width: 300px;
+}
+section .container .telefone{
+    width: 300px;
+}
+section .container .pais{
+    width: 300px;
+}
+section .container .cidade{
+    width: 300px;
+}
+section .container .codigo{
+    width: 300px;
+}
+section .container .codigo .form-control{
+    background-color: #dfe3ff;
+}
+section .container .cidade .form-control{
+    background-color: #dfe3ff;
+}
+section .container .nome .form-control{
+    background-color: #dfe3ff;
+}
+section .container .sobrenome .form-control{
+    background-color: #dfe3ff;
+}
+section .container .endereco .form-control{
+    background-color: #dfe3ff;
+}
+section .container .pais .form-control{
+    background-color: #dfe3ff;
+}
+section .container .email .form-control{
+    background-color: #dfe3ff;
+}
+section .container .telefone .form-control{
+    background-color: #dfe3ff;
+}
+section .container .estado .form-control{
+    background-color: #dfe3ff;
+}
+section .container .codigo .form-control{
+    background-color: #dfe3ff;
+}
+section .container .cargo .form-control{
+    background-color: #dfe3ff;
+}
+section .container .nome .form-control{
+    background-color: #dfe3ff;
+}
+section .container .nascimento .form-control{
+    background-color: #dfe3ff;
+}
+section .container .carteira .form-control{
+    background-color: #dfe3ff;
+}
+section{
+    width: 10px;
+    margin-left: 14px;
+    margin-top: 14px;
+}
+section #sessao{
+    width: 10px;
+    height: 200px;
+}
+#container1{
+    margin-left: -10px;
+    height: 100%;
+    width: 754px;
+}
+#container2{
+    height: 100%;
+    position: absolute;
+    width: 728px;
+    top: 0;
+    margin-left: 624px;
+    background-color: #0652DD;
+}
+section .container .col-md-6 .states{
+    height: 500px;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Formulário</title>
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/form.css">
+    </head>
+    <body>
+        <section>
+            <div class="container" id="container1">
+                <form action="form.php" method="POST">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6 cargo">
+                                <label for="cargo"><strong>Cargo desejado:</strong></label>
+                                <input type="text" name="cargo" id="cargo" class="form-control" placeholder="por exemplo: professor" required autofocus tabindex="1">
+                                <div class="nome">
+                                    <label for="nome"><strong>Nome:</strong></label>
+                                    <input type="text" name="nome" id="nome" class="form-control" required tabindex="1">
+                                </div>
+                            </div>
+                            <div class="col-md-6 foto">
+                                <label for="foto"><strong>Carregar foto:</strong></label>
+                                <input class="imagem" type="file" title="#" name="imagem" >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container2">
+                        <div class="row">
+                            <div class="col-md-6 sobrenome">
+                                <label for="sobrenome"><strong>Sobrenome:</strong></label>
+                                <input type="text" name="sobrenome" id="sobrenome" class="form-control" required tabindex="2">
+                            </div>
+                            <div class="col-md-6 email">
+                                <label for="email"><strong>Email:</strong></label>
+                                <input type="email" name="email" id="email" class="form-control" required tabindex="1">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container3">
+                        <div class="row">
+                            <div class="col-md-6 telefone">
+                                <label for="telefone"><strong>Telefone:</strong></label>
+                                <input type="text" name="telefone" id="telefone" class="form-control" required tabindex="2">
+                                <div></div>
+                            </div>
+                            <div class="col-md-6 pais">
+                                <label for="pais"><strong>País:</strong></label>
+                                <input type="text" name="pais" id="pais" class="form-control" required tabindex="1">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container4">
+                        <div class="row">
+                            <div class="col-md-6 estado">
+                                <label for="estado"><strong>Estado:</strong></label>
+                                <input type="text" name="estado" id="estado" class="form-control" required tabindex="1">
+                            </div>
+                            <div class="col-md-6 cidade">
+                                <label for="cidade"><strong>Cidade:</strong></label>
+                                <input type="text" name="cidade" id="cidade" class="form-control" required tabindex="1">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container5">
+                        <div class="row">
+                            <div class="col-md-6 endereco">
+                                <label for="endereco"><strong>Endereço:</strong></label>
+                                <input type="text" name="endereco" id="endereco" class="form-control" required tabindex="2">
+                            </div>
+                            <div class="col-md-6 codigo">
+                                <label for="codigo"><strong>Código postal:</strong></label>
+                                <input type="text" name="codigo" id="codigo" class="form-control" required tabindex="1">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container6">
+                        <div class="row">
+                            <div class="col-md-6 carteira">
+                                <label for="carteira"><strong>Carteira de motorista:</strong></label>
+                                <input type="text" name="carteira" id="carteira" class="form-control" required tabindex="2">
+                            </div>
+                            <div class="col-md-6 nascimento">
+                                <label for="nascimento"><strong>Data de nascimento:</strong></label>
+                                <input type="date" name="nascimento" id="nascimento" class="form-control" required tabindex="2">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="container" id="container2"></div>
+        </section>
+    </body>
+</html>
