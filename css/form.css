@@ -186,6 +186,11 @@ section .container8{
     margin-top: 384px;
     margin-left: 9px;
 }
+section .container9{
+    width: 596px;
+    margin-top: 27px;
+    margin-left: 9px;
+}
 section .container8 #texto2 small{
     color: #747d8c;
     text-align: left;
@@ -201,21 +206,21 @@ section .container .botao{
 #minhaDiv{
     display: none;
 }
-section .container9{
-    width: 596px;
-    margin-top: 45px;
-    margin-left: 9px;
-}
-section .container9 #texto2 small{
-    color: #747d8c;
-    text-align: left;
-}
 section .container10{
-    width: 588px;
-    margin-top: 45px;
+    width: 596px;
+    margin-top: 27px;
     margin-left: 9px;
 }
 section .container10 #texto2 small{
+    color: #747d8c;
+    text-align: left;
+}
+section .container11{
+    width: 588px;
+    margin-top: 27px;
+    margin-left: 9px;
+}
+section .container11 #texto2 small{
     color: #747d8c;
     text-align: left;
 }
@@ -236,6 +241,22 @@ section .container9 .botao3{
     font-weight: bold;
 }
 section .container10 .botao4{
+    background: none;
+    border: none;
+    margin-top: 14px;
+    margin-left: 5px;
+    color: #0652DD;
+    font-weight: bold;
+}
+section .container10 .botao4{
+    background: none;
+    border: none;
+    margin-top: 14px;
+    margin-left: 5px;
+    color: #0652DD;
+    font-weight: bold;
+}
+section .container11 .botao5{
     background: none;
     border: none;
     margin-top: 25px;
@@ -304,4 +325,78 @@ section .container8 .linha1{
     position: relative;
     top: 6px;
     margin-left: -2px;
+}
+section .container10 .linha1{
+    position: relative;
+    margin-top: 17px;
+    margin-left: -2px;
+}
+section .container10 .rotulo{
+    width: 250px;
+    color: #747d8c;
+}
+section .container10 .link{
+    width: 250px;
+    color: #747d8c;
+}
+section .container10 .rotulo .form-control{
+    background-color: #dfe3ff;
+}
+section .container10 .link .form-control{
+    background-color: #dfe3ff;
+}
+section .container9 .escola{
+    width: 250px;
+    color: #747d8c;
+}
+section .container9 .grau{
+    width: 250px;
+    color: #747d8c;
+}
+section .container9 .linha2{
+    margin-top: 18px;
+    margin-left: -2px;
+}
+section .container9 .linha3{
+    margin-top: 13px;
+    margin-left: -2px;
+}
+section .container9 .linha1{
+    position: relative;
+    top: 6px;
+    margin-left: -2px;
+}
+section .container9 .data1{
+    width: 250px;
+    color: #747d8c;
+}
+section .container9 .data2{
+    width: 250px;
+    color: #747d8c;
+}
+section .container9 .estado2{
+    width: 250px;
+    color: #747d8c;
+}
+section .container9 .cidade2{
+    width: 250px;
+    color: #747d8c;
+}
+section .container9 .escola .form-control{
+    background-color: #dfe3ff;
+}
+section .container9 .grau .form-control{
+    background-color: #dfe3ff;
+}
+section .container9 .data1 .form-control{
+    background-color: #dfe3ff;
+}
+section .container9 .data2 .form-control{
+    background-color: #dfe3ff;
+}
+section .container9 .estado2 .form-control{
+    background-color: #dfe3ff;
+}
+section .container9 .cidade2 .form-control{
+    background-color: #dfe3ff;
 }
