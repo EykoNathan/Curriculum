@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Tela de Login</title>
+        <link rel="stylesheet" href="css/login.css">
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    </head>
+    <body>
+        <section id="direita">
+            <div class="container">
+                <h1>SEJA BEM VINDO!<small>Acesse sua conta!</small></h1>
+            </div>
+            <form action="form.php" method="POST" class="form">
+                <div class="form-group email">
+                    <label for="email"><strong>E-mail:</strong></label>
+                    <input type="email" name="email" id="email" class="form-control" placeholder="Seu@email.com.br" autofocus tabindex="1">
+                </div>
+                <div class="form-group senha">
+                    <label for="senha"><strong>Senha:</strong></label>
+                    <input type="password" name="senha" id="senha" class="form-control" tabindex="2">
+                </div>
+                <div class="form-group">
+                    <div class="col-md-6 lembrar">
+                        <label for="lembrar"><strong>Lembrar senha?</strong></label>
+                        <input type="checkbox" name="lambrar" id="lembrar">
+                    </div>
+                    <div class="col-md-6 cadastro">
+                        <a href="#"><strong>Realize o seu cadastro!</strong></a>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary">Entrar</button>
+                </div>
+            </form>
+        </section>
+    </body>
+</html>
