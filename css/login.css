@@ -1,0 +1,55 @@
+section .email,
+section .senha{
+    width: 340px;
+    color: #747d8c;
+}
+section .email .form-control,
+section .senha .form-control{
+    background-color: #dfe3ff;
+    margin-bottom: 10px;
+    margin-top: 7px;
+}
+section .col-md-6{
+    display: inline-block;
+}
+section .form{
+    position: relative;
+    margin-top: 190px;
+    margin-left: 820px;
+}
+section .lembrar{
+    color: #747d8c;
+}
+section .cadastro{
+    position: absolute;
+    right: 190px;
+    width: 190px;
+}
+section .cadastro a{
+    text-decoration: none;
+}
+section .lembrar{
+    margin-bottom: 10px;
+}
+section .btn-primary{
+    width: 120px;
+    height: 40px;
+}
+section .container{
+    background-color: #0652DD;
+    position: absolute;
+    height: 625px;
+    width: 690px;
+    top: 0;
+}
+section .container h1{
+   color: #fff;
+   position: relative;
+   top: 250px;
+   text-align: center;
+   font-size: 50px;
+}
+section .container h1 small{
+    display: block;
+    font-size: 25px;
+ }
